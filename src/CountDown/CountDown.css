@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+.countdown-timer {
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  font-family: Fira Code;
+  text-align: center;
+  color: #00ff00;
+  font-size: 60px;
+  margin-top: 15%;
+}
+.countdown-timer span {
+  margin: 0 30px;
+  margin-top: -60px;
+}
